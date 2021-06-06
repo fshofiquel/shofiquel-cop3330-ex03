@@ -21,8 +21,9 @@ public class App
         quote = quoteInput.nextLine();
         System.out.print("Who said it? ");
         name = nameInput.nextLine();
+        outputString = "" +name+ " says, \"" +quote+ "\"";
 
-        outputString = "" +name+ " says, " +quote;
+        System.out.println(outputString);
     }
 
 }
